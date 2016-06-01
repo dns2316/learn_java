@@ -3,8 +3,7 @@
  */
 public class hours_pay {
     public static void main(String[]args){
-        System.out.println("Salary: " + calculateSalary(8,50) + "$");// pay for 1 hour, hours in week
-        System.out.println(average(5, 40));//days, hours in week
+        out(8,50,5);
     }
     private static int calculateSalary(int pay, int hours){
         if (pay < 8 || hours > 60) {
@@ -25,5 +24,9 @@ public class hours_pay {
     private static String average(int days, int hours){
         int x = hours / days;
         return "On average " + x + " hours per day. " + days + " days per week.";
+    }
+    private static void out(int pay, int hour, int days){
+        System.out.println("Salary: " + calculateSalary(pay,hour) + "$");// pay for 1 hour, hours in week
+        System.out.println(average(days, hour));//days, hours in week
     }
 }
