@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/home_work/hello_world/hello_world_resolut/hello_world_resolut.iml" filepath="$PROJECT_DIR$/home_work/hello_world/hello_world_resolut/hello_world_resolut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn_java.iml" filepath="$PROJECT_DIR$/.idea/learn_java.iml" />
+    </modules>
+  </component>
+</project>
