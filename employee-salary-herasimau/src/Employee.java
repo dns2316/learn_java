@@ -1,11 +1,8 @@
-/**
- * @author herasimau on 01.06.2016.
- */
 public class Employee {
-        private final static String ERROR_PAY = "Зарплата не может быть меньше 8 долларов в час";
-        private final static String ERROR_HOUR = "Количество часов не может быть больше 60";
-        private final static int MAX_HOUR = 60;
-        private final static int MIN_PAY = 8;
+    private final static String ERROR_PAY = "Зарплата не может быть меньше 8 долларов в час";
+    private final static String ERROR_HOUR = "Количество часов не может быть больше 60";
+    private final static int MAX_HOUR = 60;
+    private final static int MIN_PAY = 8;
 
     public static void main(String[] args) {
         System.out.println(calculateEmployeeSalary(8,50));
@@ -39,6 +36,6 @@ public class Employee {
             salary = hourPay * totalHours;
             return salary;
         }
-       return null;
+        return null;
     }
 }
