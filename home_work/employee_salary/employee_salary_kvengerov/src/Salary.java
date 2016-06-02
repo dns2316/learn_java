@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by User on 02.06.2016.
  */
-public class Salaryver2 {
+public class Salary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
