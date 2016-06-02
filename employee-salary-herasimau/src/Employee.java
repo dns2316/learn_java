@@ -1,3 +1,7 @@
+/**
+ * @author herasimau on 02.06.2016.
+ */
+
 public class Employee {
     private final static String ERROR_PAY = "Зарплата не может быть меньше 8 долларов в час";
     private final static String ERROR_HOUR = "Количество часов не может быть больше 60";
