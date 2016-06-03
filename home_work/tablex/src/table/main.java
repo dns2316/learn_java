@@ -6,8 +6,12 @@ package table;
 public class main {
     public static void main(String[] args){
         a2 aa = new a2();
-        for (int i = 2; i < 10; i++){
-            aa.create(i);
+        for (int i = 2; i < 9; i++){
+            int tablex[] = aa.create(i);
+            int first_int =i;
+            for (int i = 0; tablex > i; i++){
+                System.out.println(first_int + " * " + tablex[i+1] + " = " + tablex[i]);
+            }
         }
     }
 
