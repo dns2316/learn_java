@@ -6,7 +6,9 @@ package table;
 public class main {
     public static void main(String[] args){
         a2 aa = new a2();
-        aa.create(2);
+        for (int i = 2; i < 10; i++){
+            aa.create(i);
+        }
     }
 
 }
