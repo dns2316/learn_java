@@ -3,15 +3,15 @@
  */
 public class Sun implements IPlanet {
 	static String SUN = "sun";
-	private static Sun ourInstance;
+	private static SUN sun;
 
-	public static Sun getInstance() {
-		if (ourInstance == null){
-			ourInstance = new Sun();
+	public static SUN getInstance() {
+		if (sun == null){
+			sun = new SUN();
 		}
-		return ourInstance;
+		return sun;
 	}
 
-	private Sun() {
+	private SUN() {
 	}
 }

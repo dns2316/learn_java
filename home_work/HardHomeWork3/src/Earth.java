@@ -1,13 +1,17 @@
 /**
  * Created by DNS2316 on 08.06.2016.
  */
-public class Earth implements IPlanet {
-	private static Earth ourInstance = new Earth();
+public class Moon implements IPlanet {
+	static String EARTH = "earth";
+	private static EARTH earth;
 
-	public static Earth getInstance() {
-		return ourInstance;
+	public static EARTH getInstance() {
+		if (earth == null){
+			earth = new EARTH();
+		}
+		return earth;
 	}
 
-	private Earth() {
+	private EARTH() {
 	}
 }

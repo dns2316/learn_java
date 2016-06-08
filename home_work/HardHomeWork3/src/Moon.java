@@ -2,12 +2,16 @@
  * Created by DNS2316 on 08.06.2016.
  */
 public class Moon implements IPlanet {
-	private static Moon ourInstance = new Moon();
+	static String MOON = "moon";
+	private static MOON moon;
 
-	public static Moon getInstance() {
-		return ourInstance;
+	public static MOON getInstance() {
+		if (moon == null){
+			moon = new MOON();
+		}
+		return moon;
 	}
 
-	private Moon() {
+	private MOON() {
 	}
 }
